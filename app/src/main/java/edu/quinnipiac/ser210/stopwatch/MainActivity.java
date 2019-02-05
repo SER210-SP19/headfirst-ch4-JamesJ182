@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         {
             seconds=savedInstanceState.getInt("seconds");
             running=savedInstanceState.getBoolean("running");
-            wasRunning=savedInstanceState.getBoolean("running");
+            wasRunning=savedInstanceState.getBoolean("wasRunning");
         }
         runTimer();
     }
